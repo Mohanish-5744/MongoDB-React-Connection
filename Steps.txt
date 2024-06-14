@@ -1,0 +1,22 @@
+In this project we are taking input in Backend part and fetching it in  frontend part
+
+Backend:->
+1. Open Project terminal in VS Code type 'npm i'.
+2. Run the Project using command 'npm start'.
+3. Click on Add Blogs Section.
+4. Input all the fields and press Submit.
+5. You will get message 'Error: Failed to fetch.
+6. Open new Terminal in Project and type 'cd mongo-backend'
+7. After running above 6th command type 'node server.js' in same terminal.
+8. You will get message 'Server running at http://localhost:5000' and get message Connected to MongoDB.
+9. Now go to browser and click on submit again.
+10. Now you will get message that 'Blogs added successfully.'
+
+Frontend:->
+1. Open Project terminal in VS Code type 'npm i'.
+2. Run the Project using command 'npm start'
+3. You will Get Message 'Error Fetching Blog'
+4. Open new Terminal in Project and type 'cd backend'
+5. After running above 4th command type 'node server.js' in same terminal.
+6. You will get message 'Server running at http://localhost:5001' and get message Connected to MongoDB.
+7. Now refresh the Browser where React Project is start you will able to fetch the data from backend.
